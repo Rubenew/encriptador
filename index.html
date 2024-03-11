@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>encriptadorRuben</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <header>
+            <div class="caja">
+                <h1 class="titulo-principal">Encriptador de textos</h1>
+                <img class="hechicero" src="img/hechicero01.png" alt="hechicero">
+            </div>
+            
+        </header>
+
+        <main>
+            <div>
+                <h1 class="titulocajatexto">Ingrese aquí el texto a encriptar o desencriptar</h1>
+               <textarea cols="70" rows="10" id="mensaje-ingresado" class="input-texto" required placeholder="Ingresa el texto en minúscula y sin tilde aquí."></textarea>
+            </div>
+            <div>
+                <h1 class="titulocajatexto">Texto encriptado o desencriptado</h1>
+                <textarea cols="70" rows="10" id="texto-salida" class="texto-out" required></textarea>
+            </div>
+            <div>
+                <button id="encriptar" class="enc">Encriptar</button>
+                <button id="desencriptar" class="desenc">Desencriptar</button>
+                <button id="copiar" class="copiar">Copiar</button>
+            </div>
+
+
+        </main>
+
+        <footer>
+            <p class="copyright">&copy Copyright Rubén Ippoliti - 2024</p>
+        
+        </footer>
+        <script src="app.js"></script>
+    </body>
+
+   
+</html>
